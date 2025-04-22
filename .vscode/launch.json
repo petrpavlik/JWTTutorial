@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JWTTutorial}",
+            "name": "Debug JWTTutorial",
+            "program": "${workspaceFolder:JWTTutorial}/.build/debug/JWTTutorial",
+            "preLaunchTask": "swift: Build Debug JWTTutorial"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JWTTutorial}",
+            "name": "Release JWTTutorial",
+            "program": "${workspaceFolder:JWTTutorial}/.build/release/JWTTutorial",
+            "preLaunchTask": "swift: Build Release JWTTutorial"
+        }
+    ]
+}
